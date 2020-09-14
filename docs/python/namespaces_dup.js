@@ -2,6 +2,7 @@ var namespaces_dup =
 [
     [ "pa_binary", "namespacepa__binary.html", null ],
     [ "pa_binary_data", "namespacepa__binary__data.html", null ],
+    [ "pa_cli_datetime", "namespacepa__cli__datetime.html", null ],
     [ "pa_comet", "namespacepa__comet.html", null ],
     [ "pa_comet_data", "namespacepa__comet__data.html", null ],
     [ "pa_coordinate", "namespacepa__coordinate.html", null ],
