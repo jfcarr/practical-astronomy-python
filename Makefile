@@ -1,6 +1,8 @@
+PYEXE = python3
+
 default:
 	@echo 'Targets:'
-	@echo '  all'
+	@echo '  all-tests'
 	@echo '  test-easter'
 	@echo '  test-day-number'
 	@echo '  test-julian'
@@ -10,32 +12,44 @@ default:
 	@echo '  test-planet-comet-binary'
 	@echo '  test-moon'
 	@echo '  test-eclipses'
+	@echo '  build'
+	@echo '  upload-test'
+	@echo '  upload'
 
-all: test-easter test-day-number test-julian test-time test-coordinate test-sun test-planet-comet-binary test-moon test-eclipses
+all-tests: test-easter test-day-number test-julian test-time test-coordinate test-sun test-planet-comet-binary test-moon test-eclipses
 
 test-easter:
-	@./test-date-of-easter.py -v
+	@$(PYEXE) test_date_of_easter.py
 
 test-day-number:
-	@./test-day-number.py
+	@$(PYEXE) test_day_number.py
 
 test-julian:
-	@./test-julian.py
+	@$(PYEXE) test_julian.py
 
 test-time:
-	@./test-time.py
+	@$(PYEXE) test_time.py
 
 test-coordinate:
-	@./test-coordinate.py
+	@$(PYEXE) test_coordinate.py
 
 test-sun:
-	@./test-sun.py
+	@$(PYEXE) test_sun.py
 
 test-planet-comet-binary:
-	@./test-planet-comet-binary.py
+	@$(PYEXE) test_planet_comet_binary.py
 
 test-moon:
-	@./test-moon.py
+	@$(PYEXE) test_moon.py
 
 test-eclipses:
-	@./test-eclipses.py
+	@$(PYEXE) test_eclipses.py
+
+build:
+	$(PYEXE) -m build
+
+upload-test: build
+	$(PYEXE) -m twine upload --repository testpypi dist/*
+
+upload: build
+	$(PYEXE) -m twine upload dist/*

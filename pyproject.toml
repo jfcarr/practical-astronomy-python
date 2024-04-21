@@ -1,0 +1,21 @@
+[project]
+name = "practical-astronomy"
+version = "1.0.0"
+authors = [{ name = "Jim Carr", email = "jfcarr@gmail.com" }]
+description = "Algorithms from Practical Astronomy, implemented in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jfcarr/practical-astronomy-python"
+Issues = "https://github.com/jfcarr/practical-astronomy-python/issues"
+Documentation = "https://jfcarr.github.io/practical-astronomy-python"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

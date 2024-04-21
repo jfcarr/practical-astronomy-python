@@ -1,0 +1,25 @@
+var pa__coordinate_8py =
+[
+    [ "angle_between_two_objects", "pa__coordinate_8py.html#aeff3946906765330d3df8e9295c5636c", null ],
+    [ "angle_to_decimal_degrees", "pa__coordinate_8py.html#a987813f23727409ec84bf5b7758e4196", null ],
+    [ "atmospheric_refraction", "pa__coordinate_8py.html#afca7093308d31a18052d1212a5532229", null ],
+    [ "carrington_rotation_number", "pa__coordinate_8py.html#aea2e9ebd99d887bc7919c516f515d837", null ],
+    [ "correct_for_aberration", "pa__coordinate_8py.html#a71720f0e80328a252ba574452418ea92", null ],
+    [ "correct_for_precession", "pa__coordinate_8py.html#ac6a88c0e59835e90c871361d73f90f50", null ],
+    [ "corrections_for_geocentric_parallax", "pa__coordinate_8py.html#a94efd7a45ec9cb98c702bcf61d89dd39", null ],
+    [ "decimal_degrees_to_angle", "pa__coordinate_8py.html#af4b04e15f6470d4f704e1cab2d64fd55", null ],
+    [ "ecliptic_coordinate_to_equatorial_coordinate", "pa__coordinate_8py.html#a8801b81ef0c47d1968da6dd29c3fa015", null ],
+    [ "equatorial_coordinate_to_ecliptic_coordinate", "pa__coordinate_8py.html#a2be55120967a6500d6abf660d0c42009", null ],
+    [ "equatorial_coordinate_to_galactic_coordinate", "pa__coordinate_8py.html#a8214a5edcdda8da9372d59cd847a5f65", null ],
+    [ "equatorial_coordinates_to_horizon_coordinates", "pa__coordinate_8py.html#a759d93a22e6eb1a5fe88a07dbf4f4fd2", null ],
+    [ "galactic_coordinate_to_equatorial_coordinate", "pa__coordinate_8py.html#a3de24c7dd22235e3d8976333e0081a98", null ],
+    [ "heliographic_coordinates", "pa__coordinate_8py.html#af1747d784ba179c8ebc99fb761b337bb", null ],
+    [ "horizon_coordinates_to_equatorial_coordinates", "pa__coordinate_8py.html#abcc4ce68e3508c7ed5443ce846531bb8", null ],
+    [ "hour_angle_to_right_ascension", "pa__coordinate_8py.html#a4703c296a201b48930292c17665c7dd2", null ],
+    [ "mean_obliquity_of_the_ecliptic", "pa__coordinate_8py.html#a3b012c023b82b660c02c4b5de08474d2", null ],
+    [ "nutation_in_ecliptic_longitude_and_obliquity", "pa__coordinate_8py.html#a3a11b5ab0fe82c3966282455392d05fc", null ],
+    [ "right_ascension_to_hour_angle", "pa__coordinate_8py.html#a4dffecdd7b376164a88b03227776b67a", null ],
+    [ "rising_and_setting", "pa__coordinate_8py.html#accf030a9add4b8f1a81ed808c3caf70a", null ],
+    [ "selenographic_coordinates_1", "pa__coordinate_8py.html#accf1d521e9fe1583201493f7c3c5aa3b", null ],
+    [ "selenographic_coordinates_2", "pa__coordinate_8py.html#a821e4558becfa11ef299894f12dc37f2", null ]
+];
