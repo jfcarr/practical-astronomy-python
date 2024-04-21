@@ -4,9 +4,10 @@ default:
 	@echo ' build-python    Build documentation from Python sources.'
 
 view: build-python
-	@firefox ../docs/python/index.html &
+	@firefox ../docs/index.html &
 
 build-python:
-	@-rm -rf ../docs/python
+	@-rm -rf ../docs
+	@mkdir ../docs
 	@doxygen
 
