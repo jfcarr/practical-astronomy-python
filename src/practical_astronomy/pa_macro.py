@@ -1624,11 +1624,11 @@ def angle(XX1, XM1, XS1, DD1, DM1, DS1, XX2, XM2, XS2, DD2, DM2, DS2, S):
 	
 	Original macro name: Angle
 	"""
-	A = dh_dd(hms_dh(XX1, XM1, XS1)) if (S in ["H","h"]) else dms_dd(XX1, XM1, XD1)
+	A = dh_dd(hms_dh(XX1, XM1, XS1)) if (S in ["H","h"]) else dms_dd(XX1, XM1, XS1)
 	B = math.radians(A)
 	C = dms_dd(DD1, DM1, DS1)
 	D = math.radians(C)
-	E = dh_dd(hms_dh(XX2, XM2, XS2)) if (S in ["H","h"]) else dms_dd(XX2, XM2, XD2)
+	E = dh_dd(hms_dh(XX2, XM2, XS2)) if (S in ["H","h"]) else dms_dd(XX2, XM2, XS2)
 	F = math.radians(E)
 	G = dms_dd(DD2, DM2, DS2)
 	H = math.radians(G)
