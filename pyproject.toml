@@ -1,6 +1,6 @@
 [project]
 name = "practical-astronomy"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{ name = "Jim Carr", email = "jfcarr@gmail.com" }]
 description = "Algorithms from Practical Astronomy, implemented in Python"
 readme = "README.md"
